@@ -4,7 +4,7 @@ let app = express();
 
 
 // uses
-
+app.use( express.static( 'server/public' ) );
 
 // global variables
 const port = 5000
