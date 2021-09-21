@@ -3,7 +3,7 @@ $( document ).ready ( onReady );
 function onReady(){
     console.log( 'JQuery is ready!' );
     $( '#submitButton').on ( 'click', sendMessages );
-    let interval = setInterval( getMessages, 3000 )
+    interval = setInterval( getMessages, 3000 )
 }
 
 function getMessages() {
